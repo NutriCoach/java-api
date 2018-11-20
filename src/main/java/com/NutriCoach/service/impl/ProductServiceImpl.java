@@ -26,7 +26,7 @@ public class ProductServiceImpl implements ProductService {
 	@Transactional
 	@Override
 	public Product save(Product t) throws Exception {
-		return produtRepo.save(t);
+		return productRepo.save(t);
 	}
 
 	@Transactional
@@ -44,13 +44,13 @@ public class ProductServiceImpl implements ProductService {
 	@Transactional
 	@Override
 	public void deleteById(Integer id) throws Exception {
-		return productRepo.deleteById(id);
+		productRepo.deleteById(id);
 	}
 
 	@Transactional
 	@Override
 	public void deleteAll() throws Exception {
-		return productRepo.deleteAll();
+		productRepo.deleteAll();
 	}
 
 }
