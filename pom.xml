@@ -7,7 +7,7 @@
 	<groupId>com.NutriCoach</groupId>
 	<artifactId>NutriCoachRest</artifactId>
 	<version>1.0</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 
 	<name>NutriCoachRest</name>
 	<description>API REST nutricoach </description>
@@ -45,11 +45,7 @@
 		    <artifactId>mysql-connector-java</artifactId>
 		</dependency>
 		
-		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+		
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
