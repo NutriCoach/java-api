@@ -1,12 +1,10 @@
 spring:
   datasource:
-    driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost/nutri
-    password: admin
-    username: postgres
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://107.180.48.95:3306/BD_NutriCoach
+    username: Enzzouser
+    password: nutricoachuser
   jpa:
-    database: POSTGRESQL
-    hibernate:
-      ddl-auto: update
-    show-sql: 'false'
-    properties.hibernate.temp.use_jdbc_metadata_defaults: false
+    database: MYSQL
+    hibernate.ddl-auto: update
+    show-sql: true
