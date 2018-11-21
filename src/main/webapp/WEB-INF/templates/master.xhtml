@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	
+</h:head>
+<body>
+	<ui:insert name="header">
+		<h:form>
+			<p:menubar>
+				<p:submenu label="Qualification">
+					<p:menuitem value="Productos" url="ProductList.xhtml" />
+					<p:menuitem value="Usuarios" url="UserList.xhtml" />
+				</p:submenu>
+
+				
+			</p:menubar>
+
+		</h:form>
+	</ui:insert>
+
+	<ui:insert name="content">
+	</ui:insert>
+</body>
+</html>
